@@ -13,8 +13,9 @@ struct ImageClassificationView: View {
     var body: some View {
         ZStack {
             if isCameraVisible {
-                CameraPreview(isTakingPicture: $isTakingPicture)
-            } else {
+                CameraPreview(isTakingPicture: $isTakingPicture, image: $image)
+            }
+             else {
                 VStack {
                     if let image = image {
                         Image(uiImage: image)
