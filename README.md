@@ -1,3 +1,5 @@
+![Made with SwiftUI](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+
 # VegetalSearch
 
 VegetalSearch est une petite application de test qui utilise l'apprentissage automatique pour identifier les légumes à partir d'images. L'application est développée en utilisant SwiftUI et Core ML.
